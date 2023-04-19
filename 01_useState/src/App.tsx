@@ -14,7 +14,7 @@ const App = () => {
       />
       <button
         type='button'
-        onClick={() => setCount((count) => count + 1)}
+        onClick={() => setCount(count + 1)}
         className='block text-lg text-white bg-[#00d8fe] p-3 rounded-lg hover:bg-[#00b8d8]'
       >
         Count is {count}
