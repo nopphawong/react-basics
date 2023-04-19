@@ -1,6 +1,4 @@
-import { useEffect, useState } from 'react'
 import logo from './assets/react.svg'
-import axios from 'axios'
 import { User } from './models/User'
 import useFetch from './hooks/useFetch'
 
